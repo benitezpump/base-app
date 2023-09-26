@@ -5,7 +5,7 @@ ARG NODE_ENV
 ENV NODE_ENV=${NODE_ENV}
 
 COPY package.json package-lock.json ./
-RUN npm install --production
+RUN npm install
 COPY . .
 
 RUN ["npm", "run", "build"]
