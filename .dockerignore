@@ -1,0 +1,9 @@
+**/node_modules
+node_modules
+.git
+.gitattributes
+.travis.yml
+README.md
+docker-compose.yml
+build
+.cache
